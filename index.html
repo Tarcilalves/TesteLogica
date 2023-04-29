@@ -15,9 +15,26 @@
     <h1 class="titulo text-center display-1">Funções </h1>
 </header>
 <body>
+    <nav>
 
-    <p class="text-center"></p>
-    <p class="text-center" id="resultado"></p>
+        
+        
+        <p class="text-center" id="resultado"></p>
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <form class="container-nome container-fluid ">
+                  <div class="input-group ">
+                    <span class="input-group-text" id="basic-addon1">Digite seu nome: </span>            
+                    <input type="text" id="nome" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
+                    <button type="button" class="botaoSaudação btn btn-primary" id="botao" onclick="cumprimentaPessoa()"type="button" class="btn btn-primary">Cumprimentar</button> 
+                </div>
+                </form>  
+            </div>
+        </div>   
+        <p class="text-saudacao text-center" id="saudacao"></p>
+        
+
+    </nav>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
